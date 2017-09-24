@@ -9,7 +9,7 @@ public interface A {
         return 2;
     }
 
-
+    /* default method at Interface   */
     default void tesPrivate() {
         System.out.println(newPrivateFeatures(10));
     }
